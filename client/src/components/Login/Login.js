@@ -5,10 +5,10 @@ import Autosuggest from "react-autosuggest";
 function Login() {
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState([
-    "flipkart",
-    "flipmart",
-    "amaze",
-    "amazon",
+    // "flipkart",
+    // "flipmart",
+    // "amaze",
+    // "amazon",
   ]);
 
   function getSuggestions(value) {
@@ -65,7 +65,8 @@ function Login() {
         renderSuggestion={renderSuggestion}
         inputProps={inputProps}
       />
-      <button type="submit">Login</button>
+      <button type="submit">Submit</button>
+      <button type="submit">register new company</button>
     </form>
   );
 }
